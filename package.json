@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "e2e": "nightwatch --config ./config.js --env chrome"
+    },
+    "devDependencies": {
+        "connect": "^3.5.0",
+        "cross-spawn": "^5.0.1",
+        "express": "^4.14.0",
+        "http": "0.0.0",
+        "loadtest": "^2.2.1",
+        "serve-static": "^1.11.1",
+        "util": "^0.10.3"
+    },
+    "dependencies": {
+        "phantomjs": "^2.1.7",
+        "nightwatch": "^0.9.9",
+        "selenium-server": "^3.0.1",
+        "chromedriver": "^2.25.1"
+    }
+}
